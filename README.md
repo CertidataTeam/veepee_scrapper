@@ -18,6 +18,9 @@ Actual version of Marsh 2024
           
           nohup python veepee_scraping_script.py > output.log 2>&1 &
 
+
+### to check the status of running processus 
+          lsof -i :8080
 ### the api is related with google sheet "OD_APPLE448-prix V2_dRAFT" : 
 
         https://docs.google.com/spreadsheets/d/16TVOI2gjTtaFmiiARsfHcj_VLzLSGWsMZuAue33JC48/edit#gid=313227002
